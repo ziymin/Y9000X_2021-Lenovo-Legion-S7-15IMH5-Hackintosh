@@ -20,7 +20,7 @@ CPU：Intel Core i7-10870H Comet Lake</br>
 </br>
 黑苹果前期工作：</br>
 本机只需要进BIOS，关闭secure boot，config.plist的三码改一下。
-
+</br>
 最新进展：</br>
 1.因为PM981A，只能用SSDT-DNVMe.aml屏蔽掉，目前是安装在USB固态硬盘的，还没有添加NVME驱动，后面打算买个SN730加装</br>
 2.装的是Sequoia 15.7.5版本，基本驱动已经完成，能正常开机，指纹没用，扬声器没修复，只能戴耳机，背光亮度不能调，睡眠那些也没做</br>
