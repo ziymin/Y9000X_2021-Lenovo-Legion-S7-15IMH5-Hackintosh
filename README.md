@@ -6,7 +6,7 @@
 https://psref.lenovo.com/WDProduct/Legion/Lenovo_Legion_S7_15IMH5
 </br>
 </br>
-CPU：Intel Core i7-10870H </br>
+CPU：Intel Core i7-10870H Comet Lake</br>
 核显：Intel UHD Graphics 630 </br>
 独显：NVIDIA GeForce GTX 1650 Ti </br>
 芯片：Intel HM470 chipset </br>
