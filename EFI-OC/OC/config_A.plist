@@ -1125,7 +1125,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C020028024N0000A8</string>
+			<string>C020028026N0000A8</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
@@ -1137,9 +1137,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,4</string>
 			<key>SystemSerialNumber</key>
-			<string>C02C3VY3MD6T</string>
+			<string>C02C3VV3MD6T</string>
 			<key>SystemUUID</key>
-			<string>A95DB103-5D2D-4C30-920E-186B04AAE56B</string>
+			<string>A95DB103-5D2D-4C30-920E-185B04AAE56B</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1150,13 +1150,13 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>f////wgAAAA=</data>
 			<key>MLB</key>
-			<string>C020028024N0000A8</string>
+			<string>C020028026N0000A8</string>
 			<key>ROM</key>
 			<data>X3k2FYkH</data>
 			<key>SystemSerialNumber</key>
-			<string>C02C3VY3MD6T</string>
+			<string>C02C3VV3MD6T</string>
 			<key>SystemUUID</key>
-			<string>A95DB103-5D2D-4C30-920E-186B04AAE56B</string>
+			<string>A95DB103-5D2D-4C30-920E-185B04AAE56B</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
