@@ -16,6 +16,8 @@ BOE 15.6" FHD (1920x1080) IPS 300nits 144Hz</br>
 Intel Wi-Fi 6 AX201 + Bluetooth 5.1</br>
 USB 3.2 Gen 2 / Thunderbolt™ 3</br>
 </br>
+重点：因为PM981A极不稳定，后面打算买个SN730，目前安装在的是USB固态硬盘启动的，还没有添加NVME驱动！
+</br>
 2026-4-8 建档，主要是记录下过程，目前还在摸索阶段，欢迎同机型的讨论
 没有VPN，国内访问github时好时坏的...
 
