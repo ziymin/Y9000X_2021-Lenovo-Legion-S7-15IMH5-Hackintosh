@@ -19,7 +19,7 @@ CPU：Intel Core i7-10870H Comet Lake</br>
 </br>
 </br>
 黑苹果前期工作：</br>
-本机只需要进BIOS，关闭secure boot，config.plist的三码改一下。
+本机只需要进BIOS，关闭secure boot，config.plist的三码改一下。</br>
 </br>
 最新进展：</br>
 1.因为PM981A，只能用SSDT-DNVMe.aml屏蔽掉，目前是安装在USB固态硬盘的，还没有添加NVME驱动，后面打算买个SN730加装</br>
