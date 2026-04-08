@@ -18,8 +18,9 @@ USB 3.2 Gen 2 / Thunderbolt™ 3</br>
 </br>
 重点：因为PM981A极不稳定，目前是安装在USB固态硬盘的，还没有添加NVME驱动，后面打算买个SN730
 </br>
-2026-4-8 建档，主要是记录下过程，目前还在摸索阶段，欢迎同机型的讨论
-没有VPN，国内访问github时好时坏的...
-
+</br>
+2026-4-8 建档，主要是记录下过程，目前还在摸索阶段，欢迎同机型的讨论</br>
+没有VPN，国内访问github时好时坏的...</br>
+</br>
 机型配置看官网：
 https://psref.lenovo.com/WDProduct/Legion/Lenovo_Legion_S7_15IMH5
