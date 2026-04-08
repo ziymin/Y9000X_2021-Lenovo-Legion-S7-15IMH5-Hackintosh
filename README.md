@@ -34,18 +34,20 @@ https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H </br>
 https://olarila.com/files/ </br>
 </br>
 </br>
-工具来源：</br>
-https://mackie100projects.altervista.org </br>
-https://github.com/benbaker76/Hackintool </br>
-</br>
-</br>
-驱动来源：</br>
+工具、驱动来源：</br>
 https://github.com/acidanthera </br>
+https://github.com/CloverHackyColor </br>
+</br>
+https://github.com/benbaker76/Hackintool </br>
+https://mackie100projects.altervista.org </br>
+https://github.com/USBToolBox</br>
+</br>
 https://github.com/VoodooI2C/VoodooI2C </br>
+https://github.com/CrisHotpatch/USBInjectAll </br>
 https://github.com/OpenIntelWireless </br>
 https://github.com/1Revenger1/ECEnabler </br>
-https://github.com/CloverHackyColor </br>
-
+</br>
+</br>
 非常感谢他们的分享！</br>
 </br>
 </br>
