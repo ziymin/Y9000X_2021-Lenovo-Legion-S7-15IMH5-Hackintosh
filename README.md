@@ -3,8 +3,8 @@
 Lenovo LEGION Y9000X 2021 (Lenovo Legion S7 15IMH5)  Hackintosh
 
 --------------------------
-Intel Core i7-10870H (8C / 16T, 2.2 / 5.0GHz, 16MB)/br
-NVIDIA GeForce GTX 1650 Ti 4GB GDDR6 ,
+Intel Core i7-10870H (8C / 16T, 2.2 / 5.0GHz, 16MB)</br>
+NVIDIA GeForce GTX 1650 Ti 4GB GDDR6</br>
 Intel UHD Graphics 630 ,
 Intel HM470 chipset ,
 8GB Soldered DDR4-3200 + 16GB SO-DIMM DDR4-3200 ,
