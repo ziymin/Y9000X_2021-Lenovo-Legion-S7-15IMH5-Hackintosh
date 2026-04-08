@@ -19,7 +19,7 @@ BOE 15.6" FHD (1920x1080) IPS 300nits 144Hz</br>
 Intel Wi-Fi 6 AX201 + Bluetooth 5.1</br>
 USB 3.2 Gen 2 / Thunderbolt™ 3</br>
 </br>
-最新进展：</br>
+# 最新进展：</br>
 1.因为PM981A极不稳定，目前是安装在USB固态硬盘的，还没有添加NVME驱动，后面打算买个SN730</br>
 2.装的是Sequoia 15.7.5版本，基本驱动已经完成，正常开机使用，外放没驱动，只能戴耳机，背光亮度不能调，睡眠那些也没做</br>
 </br>
@@ -27,6 +27,25 @@ USB 3.2 Gen 2 / Thunderbolt™ 3</br>
 </br>
 </br>
 2026-4-8 建档，主要是记录下过程，目前还在摸索阶段，欢迎同机型的讨论</br>
-
 </br>
 
+# 主要EFI文档来源：</br>
+https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H </br>
+https://olarila.com/files/ </br>
+</br>
+</br>
+工具来源：</br>
+https://mackie100projects.altervista.org </br>
+https://github.com/benbaker76/Hackintool </br>
+</br>
+</br>
+驱动来源：</br>
+https://github.com/acidanthera </br>
+https://github.com/VoodooI2C/VoodooI2C </br>
+https://github.com/OpenIntelWireless </br>
+https://github.com/1Revenger1/ECEnabler </br>
+https://github.com/CloverHackyColor </br>
+
+非常感谢他们的分享！</br>
+</br>
+</br>
