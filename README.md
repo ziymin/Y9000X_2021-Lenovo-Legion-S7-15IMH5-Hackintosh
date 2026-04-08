@@ -1,7 +1,7 @@
 # 联想 拯救者 Y9000X 2021 黑苹果(Lenovo Legion S7 15IMH5) Hackintosh
 </br>
 </br>
-机型看官网(本机配置如下)：
+机型看官网(本机配置如下)：</br>
 https://psref.lenovo.com/WDProduct/Legion/Lenovo_Legion_S7_15IMH5
 </br>
 </br>
@@ -18,21 +18,21 @@ CPU：Intel Core i7-10870H Comet Lake</br>
 读卡器：4-in-1 card reader (SD, SDHC, SDXC, MMC)</br>
 </br>
 </br>
-黑苹果前期工作：</br>
-1.本机只需要进BIOS，关闭secure boot，下载到的EFI文件夹里面的ZIP文件先解压，config.plist的三码改一下。</br>
-2.如果你的固态硬盘支持黑苹果，自行添加NVMe补丁</br>
+本EFI使用说明：</br>
+1.开机F2进入BIOS，关闭secure boot，下载项目EFI后，查看里面的ZIP文件需解压，再把config.plist的三码改一下。</br>
+2.上网需要安装一个HeliPort的APP；如果你的固态硬盘支持黑苹果，请自行添加NVMe补丁吧</br>
 </br>
 </br>
 Y9000X 2021笔记本其实一直用Windows 10几年了，最近想玩一下黑苹果，很遗憾，搜索整个网络都没有同机型的EFI可用，只好从近似机型去找，走了不少弯路，所以才跑Github来建档分享一下，顺便找找同机型的用户，你们在哪里？</br>
 </br>
-没有用VPN，国内访问github时好时坏的...</br>
+没有用VPN，国内访问github时好时坏的，编辑太难了...</br>
 </br>
 </br>
 最新进展：</br>
-因为PM981A，只能用SSDT-DNVMe.aml屏蔽掉，目前是安装在USB固态硬盘的，还没有添加NVMe驱动，后面打算买个SN730加装。装的是Sequoia 15.7.5版本，基本驱动已经完成，能正常开机，指纹没用，扬声器没修复，只能戴耳机，背光亮度不能调，睡眠那些也没做</br>
+因为PM981A，只好用SSDT-DNVMe.aml屏蔽掉，我目前是安装在USB固态硬盘测试的，还没有添加NVMe驱动，后面打算买个SN730加装。系统版本是Sequoia15.7.5，基本驱动已经完成，能正常开机，指纹没用，扬声器没修复，只能戴耳机，背光亮度不能调，睡眠那些也没完善</br>
 </br>
 2026-4-8 </br>
-在Github建档，OC版本1.0.7，Clover版本r5172，主要是想记录下过程，目前还在摸索阶段，欢迎同机型的探讨！</br>
+在Github建档，OC版本1.0.7，Clover版本r5172，主要是想记录下过程，目前还在摸索阶段，欢迎同机型的爱好者一起完善！</br>
 </br>
 
 # 主要EFI文档来源：</br>
