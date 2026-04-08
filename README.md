@@ -2,6 +2,8 @@
 
 Lenovo LEGION Y9000X 2021 (Lenovo Legion S7 15IMH5)  Hackintosh
 </br>
+机型配置看官网：
+https://psref.lenovo.com/WDProduct/Legion/Lenovo_Legion_S7_15IMH5
 </br>
 Intel Core i7-10870H (8C / 16T, 2.2 / 5.0GHz, 16MB)</br>
 NVIDIA GeForce GTX 1650 Ti 4GB GDDR6</br>
@@ -22,5 +24,4 @@ USB 3.2 Gen 2 / Thunderbolt™ 3</br>
 2026-4-8 建档，主要是记录下过程，目前还在摸索阶段，欢迎同机型的讨论</br>
 没有VPN，国内访问github时好时坏的...</br>
 </br>
-机型配置看官网：
-https://psref.lenovo.com/WDProduct/Legion/Lenovo_Legion_S7_15IMH5
+
