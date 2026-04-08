@@ -1,6 +1,5 @@
-# Y9000X_2021-Lenovo-Legion-S7-15IMH5-Hackintosh
+# Lenovo LEGION Y9000X 2021 (Lenovo Legion S7 15IMH5)  Hackintosh
 
-Lenovo LEGION Y9000X 2021 (Lenovo Legion S7 15IMH5)  Hackintosh
 </br>
 </br>
 机型配置看官网：
@@ -20,7 +19,9 @@ BOE 15.6" FHD (1920x1080) IPS 300nits 144Hz</br>
 Intel Wi-Fi 6 AX201 + Bluetooth 5.1</br>
 USB 3.2 Gen 2 / Thunderbolt™ 3</br>
 </br>
-重点：因为PM981A极不稳定，目前是安装在USB固态硬盘的，还没有添加NVME驱动，后面打算买个SN730</br>
+最新进展：
+1.因为PM981A极不稳定，目前是安装在USB固态硬盘的，还没有添加NVME驱动，后面打算买个SN730</br>
+2.基本驱动已经完成，正常开机使用，外放没驱动，只能戴耳机，背光亮度不能调，睡眠那些也没做</br>
 </br>
 没有用VPN，国内访问github时好时坏的...</br>
 </br>
