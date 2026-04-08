@@ -19,10 +19,11 @@ CPU：Intel Core i7-10870H Comet Lake</br>
 </br>
 </br>
 黑苹果前期工作：</br>
-本机只需要进BIOS，关闭secure boot，config.plist的三码改一下。</br>
+1.本机只需要进BIOS，关闭secure boot，下载到的EFI文件夹里面的ZIP文件先解压，config.plist的三码改一下。</br>
+2.如果你的固态硬盘支持黑苹果，自行添加NVMe补丁</br>
 </br>
 最新进展：</br>
-1.因为PM981A，只能用SSDT-DNVMe.aml屏蔽掉，目前是安装在USB固态硬盘的，还没有添加NVME驱动，后面打算买个SN730加装</br>
+1.因为PM981A，只能用SSDT-DNVMe.aml屏蔽掉，目前是安装在USB固态硬盘的，还没有添加NVMe驱动，后面打算买个SN730加装</br>
 2.装的是Sequoia 15.7.5版本，基本驱动已经完成，能正常开机，指纹没用，扬声器没修复，只能戴耳机，背光亮度不能调，睡眠那些也没做</br>
 </br>
 Y9000X 2021笔记本其实一直用Windows 10几年了，最近想玩一下黑苹果，很遗憾，搜索整个网络都没有同机型的EFI可用，只好从近似机型去找，走了不少弯路，所以才跑Github来建档分享一下，顺便找找同机型的用户，你们在哪里？</br>
