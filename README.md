@@ -18,7 +18,7 @@ CPU：Intel Core i7-10870H Comet Lake</br>
 读卡器：4-in-1 card reader (SD, SDHC, SDXC, MMC)</br>
 </br>
 </br>
-# 黑苹果前期工作：
+黑苹果前期工作：</br>
 本机只需要进BIOS，关闭secure boot，config.plist的三码改一下。</br>
 </br>
 最新进展：</br>
