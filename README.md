@@ -24,11 +24,11 @@ CPU：Intel Core i7-10870H Comet Lake </br>
 </br>
 </br>
 本EFI使用说明：</br>
-1.开机F2进入BIOS，关闭secure boot；下载项目EFI后，查看各文件夹内有ZIP文件的先解压，再把config.plist的三码改一下
+1.进入BIOS，关闭secure boot；下载好EFI文件夹内有ZIP文件的先解压，config.plist三码改一下
 </br>
 2.如果你的固态硬盘支持黑苹果，需要先添加NVMe补丁识别
 </br>
-3.如果能进入系统，遇到其他问题了，先用USBToolBox专门定制一下USB端口，生成新的UTBMap.kext替换掉；这里https://github.com/USBToolBox/tool 下载Windows版的
+3.建议用USBToolBox专门定制一下USB端口映射，生成新的UTBMap.kext替换掉，很多问题都好解决了。这里https://github.com/USBToolBox/tool 下载Windows版的
 </br>
 4.上网需要安装一个HeliPort的APP，这里https://github.com/OpenIntelWireless/HeliPort
 </br>
@@ -37,6 +37,7 @@ PS：Y9000X 2021笔记本其实一直用Windows 10几年了，最近想玩一下
 </br>
 </br>
 说一下Clover和OC，个人其实更喜欢Clover的，简单易用，兼容性强，OC稍微有点硬件配置问题，就会完全崩溃，搞不懂开发人员为何将重点放到了OC上~~~
+</br>
 </br>
 没有用VPN，国内访问github时好时坏的...</br>
 </br>
@@ -52,7 +53,7 @@ https://github.com/Cuveanst/Y9000X-2020-Sequoia-15.7.4-EFI
 </br>
 想修复扬声器来的，结果能找到最接近的解决方案就是这个了，但是安装后并不生效，除非在这个基础上再改改，本人不会编程，所以只能等待高人解决
 </br>
-其他一些能做的都做了，深感能力有限啊，估计不会有什么进展了</br>
+其他一些能做的都做了，深感能力有限啊，估计不会有什么新进展了
 </br>
 </br>
 2026-4-8 </br>
