@@ -28,7 +28,7 @@ CPU：Intel Core i7-10870H Comet Lake </br>
 </br>
 2.如果你的固态硬盘支持黑苹果，需要先添加NVMe补丁识别
 </br>
-3.建议用USBToolBox专门定制一下USB端口映射，生成新的UTBMap.kext替换掉，很多问题都好解决了。这里https://github.com/USBToolBox/tool 下载Windows版的
+3.建议用USBToolBox专门定制一下USB端口映射，生成新的UTBMap.kext替换掉，很多问题都好解决了。这里https://github.com/USBToolBox/tool 下载Windows版的。USBToolBox+UTBMap方案或者USBInjectAll方案，二选一即可，但在Clove中可能其他地方没配置好，不能用USBInjectAll
 </br>
 4.上网需要安装一个HeliPort的APP，这里https://github.com/OpenIntelWireless/HeliPort
 </br>
