@@ -28,7 +28,7 @@ CPU：Intel Core i7-10870H Comet Lake </br>
 </br>
 2.建议用USBToolBox专门定制一下USB端口映射，生成新的UTBMap.kext替换掉，很多问题都好解决了。这里https://github.com/USBToolBox/tool 下载Windows版的。USBToolBox+UTBMap方案或者USBInjectAll方案，二选一即可，但在Clove中可能其他地方没配置好，不能用USBInjectAll
 </br>
-4.上网需要安装一个HeliPort的APP，这里https://github.com/OpenIntelWireless/HeliPort
+3.上网需要安装一个HeliPort的APP，这里https://github.com/OpenIntelWireless/HeliPort
 </br>
 </br>
 PS：Y9000X 2021笔记本其实一直用Windows 10几年了，最近想玩一下黑苹果，很遗憾，搜索整个网络都没有同机型的EFI可用，只好从近似机型去找，很奇怪，为什么没有十代CPU的拯救者用户吗？走了不少弯路，所以才跑Github来建档分享一下，顺便找找同机型的用户，你们在哪里？
