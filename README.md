@@ -24,14 +24,14 @@ CPU：Intel Core i7-10870H Comet Lake </br>
 </br>
 </br>
 本EFI使用说明：</br>
-1.进入BIOS，关闭secure boot；下载好EFI文件夹内有ZIP文件的先解压，config.plist三码改一下
+1.进入BIOS，关闭secure boot；下载好EFI文件夹内有ZIP文件的先解压，config.plist三码改一下。
 </br>
-2.建议用USBToolBox专门定制一下USB端口映射，生成新的UTBMap.kext替换掉，很多问题都好解决了。这里https://github.com/USBToolBox/tool 下载Windows版的。USBToolBox+UTBMap方案或者USBInjectAll方案，二选一即可，但在Clove中可能其他地方没配置好，不能用USBInjectAll
+2.建议用USBToolBox专门定制一下USB端口映射，生成新的UTBMap.kext替换掉，很多问题都好解决了。这里https://github.com/USBToolBox/tool 下载Windows版的。USBToolBox+UTBMap方案或者USBInjectAll+XhciPortLimit(√)方案，二选一。
 </br>
 3.上网需要安装一个HeliPort的APP，这里https://github.com/OpenIntelWireless/HeliPort
 </br>
 </br>
-PS：Y9000X 2021笔记本其实一直用Windows 10几年了，最近想玩一下黑苹果，很遗憾，搜索整个网络都没有同机型的EFI可用，只好从近似机型去找，很奇怪，为什么没有十代CPU的拯救者用户吗？走了不少弯路，所以才跑Github来建档分享一下，顺便找找同机型的用户，你们在哪里？
+PS：Y9000X 2021笔记本其实一直用Windows 10几年了，最近想玩一下黑苹果，很遗憾，搜索整个网络都没有同机型的EFI可用，只好从近似机型去找，很奇怪，为什么没有十代CPU的拯救者用户吗？走了不少弯路，所以才跑Github来建档分享一下，顺便找找同机型的用户共同改进。
 </br>
 </br>
 没有用VPN，国内访问github时好时坏的...</br>
@@ -39,12 +39,12 @@ PS：Y9000X 2021笔记本其实一直用Windows 10几年了，最近想玩一下
 </br>
 最新进展：
 </br>
-因为PM981A，只好用SSDT-DNVMe.aml屏蔽掉，我目前是安装在USB固态硬盘测试的，系统版本是Sequoia15.7.5，基本驱动已经完成，大部分功能都可以正常使用，指纹用不了，扬声器没修复，只能戴耳机，背光亮度不能正常调节。
+因为PM981A，只好用SSDT-DNVMe.aml屏蔽掉，我目前是安装在USB固态硬盘测试的，系统版本是Sequoia15.7.5，基本驱动已经完成，大部分功能都可以正常使用，指纹用不了，扬声器没修复，只能戴耳机，背光亮度无法正常调节。
 </br>
 </br>
 2026-4-13
 </br>
-OC引导，在Win10下用SSDTTime重新生成.aml文件，试了一次睡眠，发现能正常唤醒了，同时背光也可以调节了，但奇怪的是重启后又失效，其他问题没进展。工具https://github.com/corpnewt/SSDTTime
+完善OC引导，在Win10下用SSDTTime/RapidSSDT重新生成.aml文件，试了一次睡眠，发现能正常唤醒了，同时背光也可以调节了，但奇怪的是重启后调节又失效，其他问题没进展。
 </br>
 </br>
 2026-4-10 
@@ -60,11 +60,11 @@ https://github.com/Cuveanst/Y9000X-2020-Sequoia-15.7.4-EFI
 </br>
 
 # 主要EFI文档来源：</br>
-https://olarila.com/files   这个论坛提供的EFI真的非常齐全，通用性很强 
+https://olarila.com/files   这个论坛提供的EFI真的非常齐全，通用性很强。 
 </br>
 https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H 
 </br>
-其实找了很多十代平台的EFI，包括其他品牌同款CPU i7-10875H的都不能启动，找到这里的EFI文件是唯一的一个能启动的！但定制的东西太多吧，又是9代平台的，OC的EFI在本机不能启动，试了一下clover-5144的能启动Sonoma，这才开始了从clover的修改之旅！学了一些配置知识后，才跟进OC的
+其实找了很多十代平台的EFI，包括其他品牌同款CPU i7-10875H的都不能启动，找到这里的EFI文件是唯一的一个能启动的！但定制的东西太多吧，又是9代平台的，OC的EFI在本机不能启动，试了一下clover-5144的能启动Sonoma，这才开始了从clover的修改之旅！不知为何clover在本机不能正常引导Win10，但是OC可以，所以主要用OC了。
 </br>
 </br>
 </br>
@@ -78,6 +78,7 @@ https://github.com/btwise/OpCore-Simplify </br>
 </br>
 https://github.com/USBToolBox </br>
 https://github.com/corpnewt/SSDTTime </br>
+https://github.com/JeoJay127/RapidSSDT </br>
 https://github.com/CrisHotpatch/USBInjectAll </br>
 https://github.com/VoodooI2C/VoodooI2C </br>
 https://github.com/OpenIntelWireless </br>
